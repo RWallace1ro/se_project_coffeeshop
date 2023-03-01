@@ -1,12 +1,13 @@
 .form__fieldset {
   display: flex;
-  max-width: 385px;
   flex-direction: column;
   border: 0;
   margin-bottom: 120px;
+  padding: 0;
   }
 
 .form__input {
+  box-sizing:border-box;
   height: 60px;
   max-width: 385px;
   border-radius: 4px;
@@ -32,10 +33,10 @@ line-height: 20px;
 
 .form__label_type_checkbox {
 display: flex;
-align-items: center;
+justify-content: center;
 }
 
-.form__input [type="text"]
+.form__input [type="name"]
 .form__input [type="email"]
 .form__input [type="datetime-local"]
 .form__input [type="number"]
@@ -63,8 +64,10 @@ align-items: center;
   margin-top: 32px;
   height: 60px;
   opacity: 1;
+  border: none;
 }
 
 .form__button:hover {
   opacity: .7;
+  cursor: pointer;
 }

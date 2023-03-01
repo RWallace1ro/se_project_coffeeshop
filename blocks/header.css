@@ -7,21 +7,19 @@
   box-sizing: border-box;
   background-image: url(../images/background_header.svg);
   background-size: cover;
-  padding-top: 30px;
   }
 
 
 .header__title {
   max-width: 729px;
-  margin-top: 202px;
   margin-left: 80px;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: italic;
-  font-weight: normal;
+  margin-bottom: 0;
+  font-family:  "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  color: #2F80ED;
-  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .header__span-accent {
@@ -36,18 +34,6 @@
   position: relative;
 }
 
-.header__subtitle {
-  max-width: 729px ;
-  margin-left: 80px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-  margin-top: 0;
-  margin-bottom: 28px;
- }
-
 .header__description {
   display: flex;
   position: relative;
@@ -59,6 +45,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 28px;
 }
 
 .header__image {
@@ -81,9 +68,21 @@
   font-size: 16px;
   line-height: 20px;
   position: absolute;
-  bottom: 40px;
   width: 100%;
   margin-left: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0;
+  bottom: 40px;
+  }
+
+.header__hours {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 100px;
   }
 
 .header__paragraph {
@@ -93,29 +92,25 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-}
+  color: 6f6f6f;
+  margin-left: auto;
+  }
 
-.header__footer-hours {
-  margin-left: 80px;
-  padding-bottom: 40px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin-top: 100px;
-  flex:none
 
-}
 
-.header__footer-address {
+.header__paragraph_address{
   margin-right: 80px;
-  padding-bottom: 40px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  margin-top: 150px;
-  flex: none;
+  /*margin-top: 150px;
+   /*flex: none;
+   position: relative;*/
+   /*align-self: flex-end;*/
+   z-index: 2;
+   position: absolute;
+   right: 4px;
+   bottom: -16px;
   }

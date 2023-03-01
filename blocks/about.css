@@ -1,6 +1,6 @@
 
 .about {
-  padding-top: 100px;
+  padding-top: 119px;
   padding-left: 80px;
   padding-right: 80px;
   width: 100%;
@@ -9,7 +9,6 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  overflow: hidden;
   display: flex;
   justify-content: space-between;
 }
@@ -27,9 +26,7 @@
 
 .about__content {
   max-width: 660px;
-  padding-top: 119px;
   padding-bottom: 173px;
-  padding-right: 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -40,6 +37,7 @@
 .about__paragraph {
    max-width: 660px;
    margin-bottom: 20px;
+   margin-top: 0;
 }
 
 .about__paragraph:last-of-type {
@@ -47,7 +45,6 @@
 }
 
 .about__circle {
-  position: static;
   background-color: #2f80ed;
   width: 426px;
   height: 426px;
@@ -61,28 +58,19 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  display: block;
-  z-index: 1;
-  overflow: hidden;
-  top: -152px;
-  left: -129px;
   animation: pulsate 1.3s ease-in-out 0s infinite;
   }
 
 
   @keyframes pulsate {
     0% {
-      opacity: 2;
+      opacity: 0;
     }
     50% {
       opacity: 0.6;
       }
     100% {
-      transform: scale(1.3s) opacity 0s;
+      transform: scale(1.3)
+      opacity 0;
     }
   }

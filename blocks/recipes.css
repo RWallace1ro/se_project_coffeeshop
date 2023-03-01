@@ -10,7 +10,7 @@
 .recipes__title {
   max-width: 580px;
   margin-left: 80px;
-  margin-bottom: 24px;
+  margin-top: 0;
   color: #000000;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -29,6 +29,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 24px;
 }
 
 .recipes__videos {
@@ -42,9 +43,7 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
-  padding: 0;
-  margin: 0;
-}
+  }
 
 .recipes__video-caption {
   display: flex;
@@ -55,6 +54,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 0;
 }
 
 .recipes__list-divider {
