@@ -41,6 +41,7 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .footer__social-link {
@@ -52,7 +53,6 @@
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 16px;
-  /*margin: 0;*/
   }
 
 .footer__social-link:hover {
@@ -78,4 +78,5 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 0;
+  margin-top: 0;
 }

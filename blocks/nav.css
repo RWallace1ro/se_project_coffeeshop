@@ -1,10 +1,9 @@
-
 .nav {
   display: flex;
   justify-content: space-between;
- }
+}
 
- .nav__links {
+.nav__links {
   display: flex;
   align-items: flex-end;
   gap: 20px;
@@ -18,15 +17,13 @@
   line-height: 20px;
   padding-left: initial;
   margin-bottom: 0;
-  position: absolute;
-  right: 4px;
-
-  }
+  align-items: flex-start;
+}
 
 .nav__link {
   color: #000000;
   text-decoration: none;
-  }
+}
 
 .nav__link:hover {
   color: #2f80ed;
