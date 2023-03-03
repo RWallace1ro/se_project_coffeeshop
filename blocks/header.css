@@ -99,7 +99,7 @@
   margin-left: auto;
 }
 
-.header__address {
+.header__paragraph-address {
   margin-right: 80px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -109,5 +109,5 @@
   z-index: 2;
   position: absolute;
   right: 4px;
-  bottom: -16px;
+  bottom: -4px;
 }
